@@ -6,7 +6,7 @@ using namespace std;
 typedef unsigned int u32;
 
 static void fizzbuzz(u32 n){
-  for (u32 i = 0; i <= n; ++i){
+  for (u32 i = 1; i <= n; ++i){
     if (i % 3 == 0 && i % 5 == 0)
       cout << "FizzBuzz ";
     else if (i % 3 == 0)
